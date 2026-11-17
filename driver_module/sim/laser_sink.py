@@ -7,7 +7,8 @@ Circuit (per laser, on the driver board):
   laser rail -> laser anode; laser cathode -> AO3400A drain; source -> Rsense -> local ground.
   LM358: +IN = set point, -IN = sense node through Rf, Cf from output to -IN, Rg in series with the gate.
   Set point: Pico PWM (3.3 V, controller ground) -> R1 -> vset; R2 and CSET from vset to local ground.
-Controller side: laser-rail buck (ideal source + ripple), optional AO3401 high-side switch, 0.5 m cable.
+Controller side: laser-rail buck (ideal source + ripple), optional high-side rail switch (Q102: AO4407A on the
+board, modelled with the AO3401), 0.5 m cable.
 The "atomizer" analysis covers the driver board's atomizer switch (Q2), which is driven from the same
 PWM line through a diode/RC activity detector (R7, D1, C7, R8, R9).
 """
@@ -42,8 +43,10 @@ VSET_FS = VPWM * R2 / (R1 + R2)
 
 RF, CF, RG = 1e3, 10e-9, 470
 
-# Gate capacitance added to the AO3400 model, which has only 225 pF Cgs and no Cgd.
-# Datasheet: Ciss 630 pF, Crss 50 pF at Vds = 15 V (larger at low Vds).
+# MOSFET (AO3400A) for the current sink and the atomizer switch. Gate capacitance added to the AO3400
+# model, which has only 225 pF Cgs and no Cgd. Datasheet: Ciss 630 pF, Crss 50 pF at Vds = 15 V
+# (larger at low Vds).
+FET = "AO3400"
 CGS_EXTRA, CGD_EXTRA = 300e-12, 100e-12
 
 # Looser solver settings for cases that drive the LM358 model hard (supply collapse, saturation).
@@ -92,7 +95,7 @@ def deck(cfg, analysis, *, vrail=None, laser_variant="", vset_src=None, pwm_src=
 
     Set point: either vset_src (a source spec forced directly on the vset node, bypassing the PWM
     filter) or pwm_src (a source spec for the Pico PWM pin, which drives the R1/R2/CSET network).
-    hot_switch: (t_on, t_off) for the controller's AO3401 high-side switch; None = rail always on.
+    hot_switch: (t_on, t_off) for the controller's rail switch Q102; None = rail always on.
     laser_connect: time at which the laser is connected to the driver; None = always connected.
     vos: extra op-amp input offset, in series with +IN.
     """
@@ -110,7 +113,7 @@ def deck(cfg, analysis, *, vrail=None, laser_variant="", vset_src=None, pwm_src=
         t_on, t_off = hot_switch
         L.append("XQsw swout gsw sup AO3401")
         L.append("Rpull sup gsw 100k")
-        L.append("Rgsw gsw nd 100k")
+        L.append("Rgsw gsw nd 10k")
         L.append("Ssw nd 0 en 0 SWI")
         L.append(f"Ven en 0 PULSE(0 3.3 {t_on} 1u 1u {t_off - t_on} 1)")
         L.append("Cbulk sup 0 220u")
@@ -128,7 +131,7 @@ def deck(cfg, analysis, *, vrail=None, laser_variant="", vset_src=None, pwm_src=
         L.append("Vil rb la 0")
     L.append(f"XLD la d {laser}")
     L += ["Dprot d rail BAT54", "Cld rail d 10n"]
-    L += ["XM d g s AO3400", f"Cgsx g s {cgs}", f"Cgdx g d {cgd}", f"Rs s gl {rs}"]
+    L += [f"XM d g s {FET}", f"Cgsx g s {cgs}", f"Cgdx g d {cgd}", f"Rs s gl {rs}"]
     L += ["XU1 inp inn rail gl oa LM358", f"Rg oa g {rg}", f"Cf oa inn {cf}", f"Rf s inn {rf}"]
     L.append(f"Vos inp vset DC {vos}")
 
@@ -294,7 +297,7 @@ def a_ripple():
 
 
 def a_hotswitch():
-    """Laser rail switched by the controller's AO3401: wrong order (set point already high) vs right order."""
+    """Laser rail switched by the controller's Q102: wrong order (set point already high) vs right order."""
     fig, axs = plt.subplots(2, 2, figsize=(11, 7))
     for col, cfg in enumerate("AB"):
         c = CONFIGS[cfg]
@@ -393,8 +396,8 @@ def a_tolerance():
               f"({(min(res) / nom - 1) * 100:+.1f}% / {(max(res) / nom - 1) * 100:+.1f}%)")
 
 
-# Driver-board atomizer switch: PWM -> R7 (RDET) -> D1 -> (C7 || R8) -> R9 (RGA_ATOM) -> Q2 gate.
-RDET, CDET, RAD, RGA_ATOM = 330, 47e-9, 220e3, 100
+# Driver-board atomizer switch: PWM -> R7 (RDET) -> D1 -> (C7 || R8) -> Q2 gate.
+RDET, CDET, RAD = 330, 47e-9, 220e3
 R_PIN = 40          # RP2040 GPIO output resistance at the 12 mA drive setting (approx.)
 R_ATOM = 5.0 / 0.060  # atomizer modelled as a 60 mA resistive load on +5V
 
@@ -416,8 +419,8 @@ Rdet pin a {RDET}
 Ddet a k BAT54
 Cdet k 0 {CDET}
 Rad k 0 {RAD}
-Rga k g {RGA_ATOM}
-XQ d g 0 AO3400
+Rga k g 1m
+XQ d g 0 {FET}
 Cgsx g 0 {CGS_EXTRA}
 Cgdx g d {CGD_EXTRA}
 Ratom v5 d {R_ATOM}
@@ -444,7 +447,7 @@ V5 v5 0 5
         print(f"  {lab}: gate {vg_mean:.2f} V, atomizer {ia[m].mean() * 1e3:.1f} mA "
               f"(Vds {d['v(d)'][m].mean() * 1e3:.0f} mV), on in {t90 * 1e3:.2f} ms, off {t10 * 1e3:.0f} ms "
               f"after PWM stops, PWM-high droop {droop * 1e3:.1f} mV ({droop / VPWM * 100:.2f}% laser-current error)")
-    axs[0].set(xlabel="time (ms)", ylabel="AO3400A gate (V)", title="Atomizer switch gate (PWM on 1-31 ms)")
+    axs[0].set(xlabel="time (ms)", ylabel=f"{FET} gate (V)", title="Atomizer switch gate (PWM on 1-31 ms)")
     axs[1].set(xlabel="time (ms)", ylabel="atomizer current (mA)", title="Atomizer current (60 mA load)")
     for ax in axs:
         ax.axvspan(t_on * 1e3, t_off * 1e3, color="gray", alpha=0.08)

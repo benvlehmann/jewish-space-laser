@@ -2139,7 +2139,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "9d0452c0-5be9-4e22-9199-27ae7f3a34ce")
+		(uuid "07c51c4c-5293-464e-b38c-96221c409545")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
@@ -2195,16 +2195,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "3a3ad7a3-4434-43d6-95a2-3213b430d65e")
+			(uuid "36083aa4-a6d0-4b3b-b3c4-f65bbde2f8c3")
 		)
 		(pin "2"
-			(uuid "e8efe654-dc33-4ded-bdaf-1addb021e594")
+			(uuid "6a97e9e2-1954-4740-a15c-30eda11689ac")
 		)
 		(pin "3"
-			(uuid "2103bd3d-4d13-46e0-a1cc-5a4fcece3fb3")
+			(uuid "0ccf3e63-7ec8-4e9d-9e63-568fed92fcdd")
 		)
 		(pin "4"
-			(uuid "8e9a1135-eaf5-4c72-91db-2348bc827af2")
+			(uuid "ac0faf70-8f64-4d64-ab08-98432ce244f9")
 		)
 		(instances
 			(project "driver_module"
@@ -2224,7 +2224,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ea112071-c641-4d63-9077-912e9570c13f")
+		(uuid "630daece-e1d8-4fc3-8d17-6cd2ce77059b")
 	)
 	(label "LASER_RAIL"
 		(at 38.1 78.74 180)
@@ -2234,7 +2234,7 @@
 			)
 			(justify right)
 		)
-		(uuid "299fe2e2-21ad-42c6-9b3f-7ddf6ef77ef6")
+		(uuid "3ba5ef99-5ad1-4b5c-b754-06d50fa4480d")
 	)
 	(wire
 		(pts
@@ -2245,7 +2245,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "53b47238-2282-4caf-9330-2099f2f81a28")
+		(uuid "94dd9236-7a90-4cb0-b0b6-6b6a336c2a40")
 	)
 	(global_label "GND"
 		(shape bidirectional)
@@ -2257,7 +2257,7 @@
 			)
 			(justify right)
 		)
-		(uuid "af144090-f582-419a-a813-3cafd4aacdb4")
+		(uuid "07a6a3c0-c796-475e-9d36-cdbccee905db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 38.1 81.28 0)
 			(effects
@@ -2277,7 +2277,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "77c2b871-037f-4df6-a239-54eae93110e0")
+		(uuid "f2bd5d0f-4e28-444c-ac7c-39367a05a4af")
 	)
 	(label "PWM"
 		(at 38.1 83.82 180)
@@ -2287,7 +2287,7 @@
 			)
 			(justify right)
 		)
-		(uuid "93caeea1-8579-47f9-bc62-a42877fd2198")
+		(uuid "d25e61b7-35cb-41e4-bc21-69a11314f127")
 	)
 	(wire
 		(pts
@@ -2298,7 +2298,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0cdc4e41-da6a-419d-8765-08054cadd565")
+		(uuid "da4f8fd1-5359-4afa-b6d3-0a8086bd65b1")
 	)
 	(label "ATOM_P"
 		(at 38.1 86.36 180)
@@ -2308,7 +2308,7 @@
 			)
 			(justify right)
 		)
-		(uuid "affd28b2-1aac-425c-a31d-d2f1e0c50557")
+		(uuid "328230e8-0422-456d-acf2-fd31ea8ff7f4")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
@@ -2364,13 +2364,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "75b3940a-7e3f-416b-ae6d-09cd1ec3c342")
+			(uuid "e887a2ab-11a2-4d01-9da7-4018f4b6c57e")
 		)
 		(pin "2"
-			(uuid "82eb858a-ea00-42d4-9551-a61ead481f9d")
+			(uuid "8fded44e-4722-44ac-9e0f-5e3724435dad")
 		)
 		(pin "3"
-			(uuid "334bdba2-6aa7-413a-b5dd-3312a26c41f3")
+			(uuid "a2fcf26e-d5fc-4ac8-9f82-5c217e58dcf1")
 		)
 		(instances
 			(project "driver_module"
@@ -2390,7 +2390,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "286973ce-1014-4020-a86d-aeccbcd253a2")
+		(uuid "b7f23105-3941-4504-bd4d-206cc6b31eab")
 	)
 	(label "LASER_RAIL"
 		(at 220.98 73.66 180)
@@ -2400,11 +2400,11 @@
 			)
 			(justify right)
 		)
-		(uuid "14fad87e-1b83-424a-b289-d0008076d6bc")
+		(uuid "b293dabb-1c57-4cee-8431-2a93cdcaebd1")
 	)
 	(no_connect
 		(at 223.52 71.12)
-		(uuid "76b6a5f5-94d2-43cd-93ca-3e00ea42a46d")
+		(uuid "bbcd9c3e-6678-4533-bfd0-e5c5f1de23ca")
 	)
 	(wire
 		(pts
@@ -2415,7 +2415,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ae5c0bce-98d4-4bb8-984f-4f18b2e24c93")
+		(uuid "fea4f1ae-b228-4d64-88b1-d93c38e8a928")
 	)
 	(label "DRAIN"
 		(at 220.98 68.58 180)
@@ -2425,7 +2425,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e6035413-4472-4966-a6c1-4f77c955fb19")
+		(uuid "858ce50c-606a-4e58-b219-fa09bda2d0ab")
 	)
 	(text "J3: 1 = LD anode, 2 = PD anode (unused), 3 = common (LD cathode)"
 		(exclude_from_sim no)
@@ -2436,7 +2436,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "6a79c1e5-c910-4fe5-9d17-45238370cef7")
+		(uuid "8e782327-adff-4873-b85f-71f3c8187748")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -2447,7 +2447,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "acb3e0a9-9aea-4da5-a459-8f0ee11cb82a")
+		(uuid "1957a25e-acff-48ad-8a71-2dd1c61ae633")
 		(property "Reference" "C5"
 			(at 69.04 74.93 0)
 			(effects
@@ -2494,10 +2494,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e049eec-6bd7-4ca4-9d6d-2dda7250bd30")
+			(uuid "812fb07b-0229-4fd6-a9f0-9b5b89d39bed")
 		)
 		(pin "2"
-			(uuid "46ba4f4f-91bf-4a98-b561-cbde5fa36437")
+			(uuid "f9fb5794-e615-43bf-8511-b6f2c1ea91e0")
 		)
 		(instances
 			(project "driver_module"
@@ -2517,7 +2517,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0238ab82-b034-465f-9943-ad90c092c7f5")
+		(uuid "7ecb5e78-ea70-49e4-a180-0da501ae9c60")
 	)
 	(wire
 		(pts
@@ -2528,7 +2528,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e1bae781-8260-40cb-80f3-0c9920b7483d")
+		(uuid "1529a17e-ef22-49fd-9214-50547a50d121")
 	)
 	(label "LASER_RAIL"
 		(at 63.5 69.85 180)
@@ -2538,7 +2538,7 @@
 			)
 			(justify right)
 		)
-		(uuid "b032baac-da2b-4102-965a-e4ebdb2b202c")
+		(uuid "53180365-4308-40d9-88e4-2f3a8ae213eb")
 	)
 	(wire
 		(pts
@@ -2549,7 +2549,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0d628083-9137-49bd-91d6-6e6c2d62e1e6")
+		(uuid "7dbd7000-ed0a-4165-90a6-9272d0cb1dd7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2560,7 +2560,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f1b9c784-a9ed-45b9-b174-0a81a3f04fd2")
+		(uuid "aa0f196a-da51-4d60-bc5d-8f517141e98f")
 		(property "Reference" "#PWR0001"
 			(at 66.04 88.9 0)
 			(effects
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd3eb160-ea1d-44f0-8a8d-4e472a1b3da2")
+			(uuid "772092d7-2f50-41d7-909c-c0b9e9f6b876")
 		)
 		(instances
 			(project "driver_module"
@@ -2626,7 +2626,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "77fbc3f1-bc28-410b-9419-274123dbacb2")
+		(uuid "a4f31ec0-1f17-4497-8956-8034f7d525d6")
 		(property "Reference" "C6"
 			(at 81.74 74.93 0)
 			(effects
@@ -2673,10 +2673,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "77309a79-0375-430e-a7fb-4b90e55e47e4")
+			(uuid "02e47d02-1b09-4598-8de2-10e70a0d229c")
 		)
 		(pin "2"
-			(uuid "1716da86-0fe5-47c6-82e4-fd5e9e33e2e4")
+			(uuid "a6aed708-58d7-4384-b5d7-81d273e1b526")
 		)
 		(instances
 			(project "driver_module"
@@ -2696,7 +2696,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "950e2327-a96a-459a-a367-870a94c37240")
+		(uuid "8d6f2d68-19e1-4814-bf23-5b46f991787f")
 	)
 	(wire
 		(pts
@@ -2707,7 +2707,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f3b5c010-4d8f-439b-ab6b-df232b523d65")
+		(uuid "2c7edc76-6cb5-4945-b87a-40bb5e1073ba")
 	)
 	(label "LASER_RAIL"
 		(at 76.2 69.85 180)
@@ -2717,7 +2717,7 @@
 			)
 			(justify right)
 		)
-		(uuid "88b8677d-6485-47fa-8433-1d30b9d697be")
+		(uuid "0ae6d82d-e01f-4cbd-bb5d-d6076b44fab7")
 	)
 	(wire
 		(pts
@@ -2728,7 +2728,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "39565d60-d3ee-40e5-9aaa-db8b2f8f50ed")
+		(uuid "c59872cd-94ca-441b-b0c1-5e4f39535572")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2739,7 +2739,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed74b783-b804-4752-a81f-0de65763707f")
+		(uuid "5f28dbc0-24f2-46ec-a0fe-0c7e0f675015")
 		(property "Reference" "#PWR0002"
 			(at 78.74 88.9 0)
 			(effects
@@ -2785,191 +2785,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "46e79d56-4874-493c-80a8-b2570935f31a")
+			(uuid "85838173-b5fa-49e3-8ee3-2373250534e0")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
 					(reference "#PWR0002")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 91.44 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee9d8b1a-a9b0-43da-b4d7-224acf02085f")
-		(property "Reference" "C3"
-			(at 94.44 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10n"
-			(at 94.44 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 92.4052 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 91.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90d0dc0f-0cb7-45f1-9315-f08dede63689")
-		)
-		(pin "2"
-			(uuid "730aac3e-94d4-4e84-878c-b32085a09cab")
-		)
-		(instances
-			(project "driver_module"
-				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39)
-			(xy 91.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5a09b24-f378-4ab2-ba60-e3c59b00746e")
-	)
-	(wire
-		(pts
-			(xy 91.44 69.85)
-			(xy 88.9 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "28e1119b-5cd1-41a4-aa89-90a8cf027e84")
-	)
-	(label "LASER_RAIL"
-		(at 88.9 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a6627e9d-ab8c-4ddd-a7a3-7141ab626b16")
-	)
-	(wire
-		(pts
-			(xy 91.44 80.01)
-			(xy 91.44 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "934f9cf1-9fa1-44c4-ac3e-f912df3f2877")
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 91.44 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2af91b16-6f1a-4b40-a443-dd44895661d7")
-		(property "Reference" "#PWR0003"
-			(at 91.44 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 91.44 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 91.44 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "375c4626-2f1d-4150-b89a-59335db1e6e6")
-		)
-		(instances
-			(project "driver_module"
-				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0003")
 					(unit 1)
 				)
 			)
@@ -2984,8 +2805,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4ce750f0-a9d9-4ce6-910c-ed4c36500060")
-		(property "Reference" "#FLG1250"
+		(uuid "cfc303df-68bc-495c-b39a-530f4acfcb79")
+		(property "Reference" "#FLG1190"
 			(at 55.88 64.135 0)
 			(effects
 				(font
@@ -3030,12 +2851,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff140134-4cad-41e9-9e70-04be98a12267")
+			(uuid "5db2a4c7-d85d-4226-a090-05eda37218c6")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#FLG1250")
+					(reference "#FLG1190")
 					(unit 1)
 				)
 			)
@@ -3050,7 +2871,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e907247e-aed0-4fc1-9479-bc35d2fca606")
+		(uuid "c794c04d-8704-4e24-b0df-1d798762c455")
 	)
 	(wire
 		(pts
@@ -3061,7 +2882,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "63a4c4b7-599e-44b5-9e63-ce0f887258c2")
+		(uuid "ab79a251-a12e-4a0d-b366-fe6c3f3e5b53")
 	)
 	(label "LASER_RAIL"
 		(at 53.34 68.58 180)
@@ -3071,7 +2892,7 @@
 			)
 			(justify right)
 		)
-		(uuid "f1a181f3-ac4a-454c-9809-ac989d7ff8e4")
+		(uuid "df380f9d-a39a-4aff-9a88-b31dad93d0c8")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -3082,8 +2903,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61605f88-72c9-4836-bf5b-b6afb2b2431b")
-		(property "Reference" "#FLG1290"
+		(uuid "9f7b6dda-9bae-43ba-aea4-fb384ab0ff0d")
+		(property "Reference" "#FLG1230"
 			(at 104.14 84.455 0)
 			(effects
 				(font
@@ -3128,12 +2949,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "950b538f-13e2-4377-874c-96f7977db361")
+			(uuid "ccddb1aa-9a20-48bb-8b1b-93e19e23faf4")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#FLG1290")
+					(reference "#FLG1230")
 					(unit 1)
 				)
 			)
@@ -3148,7 +2969,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "36423f54-9026-480e-8003-971f74068daa")
+		(uuid "5c102295-4355-4973-83fe-7a549dd51aba")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3159,8 +2980,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "01d24214-d5ec-4e5e-a3bf-875ce896dbe7")
-		(property "Reference" "#PWR0004"
+		(uuid "18ebd2df-ad17-473e-b323-948960a8a6a7")
+		(property "Reference" "#PWR0003"
 			(at 104.14 95.25 0)
 			(effects
 				(font
@@ -3205,12 +3026,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "03f6e8d4-cb61-4a83-b89c-fd3325ba35b4")
+			(uuid "2f727e50-1930-4db2-820d-50b2b2956006")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0004")
+					(reference "#PWR0003")
 					(unit 1)
 				)
 			)
@@ -3225,7 +3046,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "29ccc13e-57a5-4bfd-a633-32020dfb6ba0")
+		(uuid "e2de0d9a-299f-4e71-9665-f094a9b51630")
 		(property "Reference" "R4"
 			(at 101.6 114.3 90)
 			(effects
@@ -3270,10 +3091,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "7764ef2b-e3fa-497e-bfae-4543cb14428a")
+			(uuid "25f056ed-6d46-40e2-b160-04aec4160ca5")
 		)
 		(pin "2"
-			(uuid "e7ee1cd1-44b3-4479-822d-a3d80783dd61")
+			(uuid "7ae7818b-544f-4244-84d4-5ccb3cabe2da")
 		)
 		(instances
 			(project "driver_module"
@@ -3293,7 +3114,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5f20a71f-e407-43fb-a311-5261074a48b8")
+		(uuid "9e779cad-a023-4c77-b640-6c5b8c66379f")
 	)
 	(label "PWM"
 		(at 95.25 116.84 180)
@@ -3303,7 +3124,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2cf6a773-f70f-47f3-94d4-5478856785f4")
+		(uuid "24cc5298-580f-43fb-98a4-800bdb362256")
 	)
 	(wire
 		(pts
@@ -3314,7 +3135,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e8463bb8-7bdd-425a-81ee-379ba638c65e")
+		(uuid "40fc17f7-75b8-4cd9-b7ec-fa47e826a939")
 	)
 	(label "VSET"
 		(at 107.95 116.84 0)
@@ -3324,7 +3145,7 @@
 			)
 			(justify left)
 		)
-		(uuid "26a4d376-9d27-4c21-869a-1ff1cde28a35")
+		(uuid "d8676b91-f467-49dc-97ec-b20cfdf0bcc4")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3335,7 +3156,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81245793-28d7-4fac-bdf9-d7aae770e223")
+		(uuid "468726f3-2ac5-4bf6-9c84-98ee4ed65563")
 		(property "Reference" "R5"
 			(at 117.3 125.73 0)
 			(effects
@@ -3382,10 +3203,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "83110db6-08e6-4942-ae5f-40c08717d77b")
+			(uuid "57efcda8-23fd-40d6-aac0-fb572f3b90ba")
 		)
 		(pin "2"
-			(uuid "6ef661e3-14e1-4045-a47b-4208554d0ebe")
+			(uuid "25eb73e0-2046-40a7-a26f-5415f97893c0")
 		)
 		(instances
 			(project "driver_module"
@@ -3405,7 +3226,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f768673f-a3b0-4385-a6f2-d917ad8f9f9e")
+		(uuid "9ea22901-6548-4233-9873-4da602d20b51")
 	)
 	(wire
 		(pts
@@ -3416,7 +3237,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "07ad6c15-702d-43a7-96e0-78add2dd8912")
+		(uuid "3318b610-f64a-43c9-b301-19120868e036")
 	)
 	(label "VSET"
 		(at 111.76 120.65 180)
@@ -3426,7 +3247,7 @@
 			)
 			(justify right)
 		)
-		(uuid "de9ba6fd-a9ee-480b-9f7a-bdbd9b4679cb")
+		(uuid "d41408ce-cc58-46fe-ab64-a45e7e1f732f")
 	)
 	(wire
 		(pts
@@ -3437,7 +3258,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b3c97e7e-40c5-45da-8b37-0f39aa8f68a2")
+		(uuid "f7e14d00-13cc-415b-8e67-360a7fc8863c")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3448,8 +3269,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e6e26e55-3c94-4f7d-b3cf-82fe766ceb1a")
-		(property "Reference" "#PWR0005"
+		(uuid "47597574-ec2a-473b-8027-5bc678573d80")
+		(property "Reference" "#PWR0004"
 			(at 114.3 139.7 0)
 			(effects
 				(font
@@ -3494,12 +3315,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0f4e7a11-fe59-4d1a-92e2-2bfa0428e53f")
+			(uuid "3ea68464-f31c-44a3-880f-5a675ac5f418")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0005")
+					(reference "#PWR0004")
 					(unit 1)
 				)
 			)
@@ -3514,7 +3335,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bead5c94-8aef-4908-9b27-e6900d2f035b")
+		(uuid "662d2896-6034-4e06-9667-e2f7178a6d05")
 		(property "Reference" "C2"
 			(at 130 125.73 0)
 			(effects
@@ -3561,10 +3382,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "8d2dfce4-da17-4ac7-9b78-46a312a6b447")
+			(uuid "423e497f-e6c4-4965-a65c-e7e9730fb905")
 		)
 		(pin "2"
-			(uuid "ce9ed7a0-8225-4f47-b595-23f130aa0b6c")
+			(uuid "45fd0f37-115c-4ba2-8e7b-c0fc62163015")
 		)
 		(instances
 			(project "driver_module"
@@ -3584,7 +3405,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "df009af0-11ab-414b-9ef5-bbb1175a0712")
+		(uuid "72d6aef2-cf39-4847-a6e2-c7cf89f0f3ae")
 	)
 	(wire
 		(pts
@@ -3595,7 +3416,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1db5fc86-5fd0-4ff3-bb9d-4bc1b06b09e0")
+		(uuid "10cc56ad-1715-4a76-9a86-cbd02b5f74ad")
 	)
 	(label "VSET"
 		(at 124.46 120.65 180)
@@ -3605,7 +3426,7 @@
 			)
 			(justify right)
 		)
-		(uuid "db980b03-03cd-4f99-a8b2-2638af3b861c")
+		(uuid "fccd07c4-f596-4880-89cf-d2b291106c78")
 	)
 	(wire
 		(pts
@@ -3616,7 +3437,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1e0109f0-88df-4e51-911b-c2f2ef494784")
+		(uuid "18e2e2af-f73e-4cd7-a9d6-1b7b7b0212d7")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3627,8 +3448,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7fda967d-a78d-48f4-bb59-4ff56181fb72")
-		(property "Reference" "#PWR0006"
+		(uuid "ed19b851-5f05-44b6-9d5e-bcb360a2e643")
+		(property "Reference" "#PWR0005"
 			(at 127 139.7 0)
 			(effects
 				(font
@@ -3673,12 +3494,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9932ddb4-eb52-42fe-b4e5-78222921273e")
+			(uuid "a8b0db26-dd41-4cca-ae50-fc8ca84aecfe")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0006")
+					(reference "#PWR0005")
 					(unit 1)
 				)
 			)
@@ -3693,7 +3514,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81039ffe-2c5d-48c9-afc7-1d3045c0d26f")
+		(uuid "33ad6369-6f6f-4bd9-af88-56f705f38770")
 		(property "Reference" "U1"
 			(at 147.32 93.98 0)
 			(effects
@@ -3740,19 +3561,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "35dbbdd8-8872-4eb7-b380-3a17d89bd0b7")
+			(uuid "3cfac4ba-f819-4a0b-9456-245464a29d6e")
 		)
 		(pin "3"
-			(uuid "c9d35cc8-9b36-49e6-bb8c-0ae919832ed9")
+			(uuid "fe8cd346-e6c2-4b9b-b951-695a8dc46252")
 		)
 		(pin "5"
-			(uuid "972c0841-92c0-4784-bc6a-2ea2ba38124b")
+			(uuid "0ed0fbb2-5e16-49f7-ab4c-560c4566473b")
 		)
 		(pin "2"
-			(uuid "f22376ef-bdb1-4e4b-9cea-53993fab63f3")
+			(uuid "009b74ea-179d-4f31-9427-a6b20de57f6c")
 		)
 		(pin "4"
-			(uuid "ec88ac68-491e-46f0-8ecf-2a2d18b1b1a2")
+			(uuid "f8df95db-edaa-473c-b570-bf86cadf49b3")
 		)
 		(instances
 			(project "driver_module"
@@ -3772,7 +3593,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "3fa1e67a-150c-4dcc-9247-1441d5626e0b")
+		(uuid "c474c870-fdae-4a21-acdc-0bb40bf7a022")
 	)
 	(label "VSET"
 		(at 137.16 99.06 180)
@@ -3782,7 +3603,7 @@
 			)
 			(justify right)
 		)
-		(uuid "550738fe-9f06-40d1-92fa-e9b7fa14476f")
+		(uuid "59026d1b-b4a8-473d-9920-03ca0f631d7e")
 	)
 	(wire
 		(pts
@@ -3793,7 +3614,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b34b97f6-20cc-41b1-87fe-b14160fbcc69")
+		(uuid "a3efbcb1-d881-4601-9549-d21d31990038")
 	)
 	(label "INN"
 		(at 137.16 104.14 180)
@@ -3803,7 +3624,7 @@
 			)
 			(justify right)
 		)
-		(uuid "2ec1815d-957e-49b6-b7ce-be11f53fad00")
+		(uuid "0fe014a5-3ffe-4332-a8b8-0f519634c07f")
 	)
 	(wire
 		(pts
@@ -3814,7 +3635,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "847af910-ba12-45f7-a574-d8d53dbbc5d9")
+		(uuid "b1f3bb93-7a51-4a2f-b08a-e1f262ed6f5e")
 	)
 	(wire
 		(pts
@@ -3825,7 +3646,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "74aacb9b-6b12-45f8-af68-234cd0653a17")
+		(uuid "44d6d802-c010-4077-b62a-028e2f92b04e")
 	)
 	(label "LASER_RAIL"
 		(at 142.24 91.44 180)
@@ -3835,7 +3656,7 @@
 			)
 			(justify right)
 		)
-		(uuid "fe6047c3-3037-4ef8-bdba-60d32466f749")
+		(uuid "0db6fa7b-bc51-47c9-8b4f-a05cf18f5d2a")
 	)
 	(wire
 		(pts
@@ -3846,7 +3667,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "45aafa6b-8596-43dc-842a-f389f7861655")
+		(uuid "4c62cd2a-31ec-4bd0-ac78-caa228f012ea")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -3857,8 +3678,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "426d19a4-05d2-413a-bb76-9af76b1d12c6")
-		(property "Reference" "#PWR0007"
+		(uuid "2444d4a1-26e3-4794-8f65-f493196b9872")
+		(property "Reference" "#PWR0006"
 			(at 144.78 118.11 0)
 			(effects
 				(font
@@ -3903,12 +3724,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4e94b28-b1ad-47e8-90f3-c287f9c55999")
+			(uuid "a354f745-f75b-4e2f-ad65-dead4f31c798")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0007")
+					(reference "#PWR0006")
 					(unit 1)
 				)
 			)
@@ -3923,7 +3744,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "03d49769-4a16-4ff6-b72b-b5ae0cd503ff")
+		(uuid "96c0d525-f5a5-447b-9c61-5ed887b74f0a")
 		(property "Reference" "R2"
 			(at 167.64 99.06 90)
 			(effects
@@ -3968,10 +3789,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ccc4f19f-ca85-400d-89fd-b43b1ebffa0d")
+			(uuid "9764a640-18af-44a6-87f7-cc19237cb8f5")
 		)
 		(pin "2"
-			(uuid "ba97eb90-f247-48c7-9dd4-7668de92fb04")
+			(uuid "b37e5864-df0c-4e85-b6a2-a812f293e80c")
 		)
 		(instances
 			(project "driver_module"
@@ -3991,7 +3812,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a04da848-2fc3-4a4a-b8e3-1a1e73eec198")
+		(uuid "b9472f0f-a24f-4db9-beb9-7e29a989761a")
 		(property "Reference" "Q1"
 			(at 193.04 99.695 0)
 			(effects
@@ -4040,13 +3861,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "b23ad464-026a-4c93-babd-3bcc8a4aa7a1")
+			(uuid "39210eca-85f7-4262-b093-7c3639cf29fd")
 		)
 		(pin "3"
-			(uuid "32437420-e0f9-4874-b6d8-ec031f81ee1b")
+			(uuid "9baf9630-dcb1-44d1-a911-46ccd50bab93")
 		)
 		(pin "2"
-			(uuid "7c2b0cfb-1560-4be1-badf-ea6fb787b971")
+			(uuid "47101edd-7a76-46a2-8d64-608c9dd14cff")
 		)
 		(instances
 			(project "driver_module"
@@ -4066,7 +3887,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b7e3a291-8bf8-46f4-bfcb-995a5d17378a")
+		(uuid "872fee93-b8e0-4465-807e-6d530fbacd51")
 	)
 	(wire
 		(pts
@@ -4077,7 +3898,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bb796870-4056-4c6a-9c7a-e79e0ceb2eab")
+		(uuid "64c3cfc4-eb8b-4450-a76e-ae16588dc1c1")
 	)
 	(label "DRAIN"
 		(at 187.96 93.98 180)
@@ -4087,7 +3908,7 @@
 			)
 			(justify right)
 		)
-		(uuid "124cb797-47be-4b42-8e65-55a9efc6a477")
+		(uuid "568c6b8a-acb7-49c4-9a3b-215f8522befd")
 	)
 	(wire
 		(pts
@@ -4098,7 +3919,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1ff366d0-d176-4364-bbed-24bb0b380056")
+		(uuid "3498524f-cb6e-49eb-8139-10aff8a7665f")
 	)
 	(wire
 		(pts
@@ -4109,7 +3930,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "b603d83b-7110-4fad-9517-cf190ca368da")
+		(uuid "70adaccc-15cc-4553-a626-87d414ba00f7")
 	)
 	(label "SENSE"
 		(at 187.96 109.22 180)
@@ -4119,7 +3940,7 @@
 			)
 			(justify right)
 		)
-		(uuid "59f5e7c8-8850-49c0-a09b-8344e1d477a5")
+		(uuid "66635f8d-8e02-4fac-8bd6-c912c5e42f9c")
 	)
 	(wire
 		(pts
@@ -4130,7 +3951,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9ce507a5-6f1f-47ba-9f1c-11abd8b9321c")
+		(uuid "3fff56d1-a343-485b-b471-7f9bae7d2760")
 	)
 	(wire
 		(pts
@@ -4141,7 +3962,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "bd3c51ef-d299-4fae-88c2-fab65ecedc36")
+		(uuid "9c5a0c6a-f0ed-4e5c-be3c-1ae4137b8aff")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -4152,7 +3973,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f30659be-c3b2-4f5b-9403-ebf250f07c21")
+		(uuid "0ea78b5b-0bb4-48b9-bb98-b25e1a86c9bb")
 		(property "Reference" "C1"
 			(at 152.4 83.82 90)
 			(effects
@@ -4197,10 +4018,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "72a65bf3-46df-46bd-b777-f1c1d503abeb")
+			(uuid "35dbb41e-627d-4f33-a24c-ab71b0472a63")
 		)
 		(pin "2"
-			(uuid "b610e169-7772-43f9-bb01-0e27f9605be5")
+			(uuid "17cdedc5-644d-4661-9c9e-b9c79dc39969")
 		)
 		(instances
 			(project "driver_module"
@@ -4220,7 +4041,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "0141b9b5-fdaf-40ce-805b-98aae8518362")
+		(uuid "4e5b60dc-2212-4319-9c6c-203df38fbb46")
 	)
 	(label "INN"
 		(at 146.05 86.36 180)
@@ -4230,7 +4051,7 @@
 			)
 			(justify right)
 		)
-		(uuid "469ff087-89d9-40d9-95f6-1d62645901f5")
+		(uuid "deb52f84-8b6e-4791-b312-57964d13d9bd")
 	)
 	(wire
 		(pts
@@ -4241,7 +4062,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5bd68f1c-9b8d-4a5f-ae72-9411191f76e5")
+		(uuid "4bec4dbe-bef0-4c44-91ad-3ea0e58c9ed9")
 	)
 	(wire
 		(pts
@@ -4252,13 +4073,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "57d1f07c-16f5-4e17-9657-e3a1266b938e")
+		(uuid "f2da0157-2ab6-4663-b5ac-50f367281cdf")
 	)
 	(junction
 		(at 154.94 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "69d6fcc0-cafc-4a99-975d-e8445e4d99b6")
+		(uuid "9eda9ec1-c2ab-48f0-81f2-e1ea9fe9775e")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -4269,7 +4090,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2b51b5c1-5956-4cd2-889e-e92b51322ac1")
+		(uuid "a2aa71ba-5968-4aff-92ba-5a4a0a8be36c")
 		(property "Reference" "R1"
 			(at 193.5 123.19 0)
 			(effects
@@ -4288,7 +4109,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 188.722 124.46 90)
 			(effects
 				(font
@@ -4316,10 +4137,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "3006339f-229f-435d-b83d-7691c940ad9f")
+			(uuid "28a8a2a3-6b50-4e55-b2c0-cf0407c55315")
 		)
 		(pin "2"
-			(uuid "a5ea2bd4-0270-46db-a0ce-06f78819c99d")
+			(uuid "ebe59966-a113-4608-80ba-86e9f22431ee")
 		)
 		(instances
 			(project "driver_module"
@@ -4339,7 +4160,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "31b7a172-d3a3-49d4-8a85-4c495bdef9ac")
+		(uuid "6ee8133d-e616-43ea-a975-eea94860f945")
 	)
 	(wire
 		(pts
@@ -4350,7 +4171,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "5700375c-379a-488e-9a17-b7c093b6f5ac")
+		(uuid "51c80e7b-da4f-4507-9190-4afbba4bb12d")
 	)
 	(label "SENSE"
 		(at 187.96 118.11 180)
@@ -4360,7 +4181,7 @@
 			)
 			(justify right)
 		)
-		(uuid "727cc9f5-254d-4a15-b9ac-a14468533594")
+		(uuid "c800eb93-7a56-4d96-ae87-014357ba4147")
 	)
 	(wire
 		(pts
@@ -4371,7 +4192,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8223a6d3-1f1d-4644-9905-e22c87015eb2")
+		(uuid "b463041a-ca0a-43c8-808a-e79934d5a59d")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -4382,8 +4203,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "103fb63f-752a-454b-b940-48cecb560737")
-		(property "Reference" "#PWR0008"
+		(uuid "ba6c9885-f5c4-453c-8533-85d10187ef31")
+		(property "Reference" "#PWR0007"
 			(at 190.5 137.16 0)
 			(effects
 				(font
@@ -4428,12 +4249,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "50d8b9c4-1d09-46ef-9562-418c75aa4ebb")
+			(uuid "c5fe6f23-ba22-45e1-92c3-1affd25811a7")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0008")
+					(reference "#PWR0007")
 					(unit 1)
 				)
 			)
@@ -4448,7 +4269,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4a4de7aa-3f16-46ed-97b5-eb4d3488ad7e")
+		(uuid "848bcbcf-afd5-4f6a-ae5e-f5de8c2a02e9")
 		(property "Reference" "R6"
 			(at 208.74 120.65 0)
 			(effects
@@ -4467,7 +4288,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 203.962 121.92 90)
 			(effects
 				(font
@@ -4495,10 +4316,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "82af283d-fd60-4843-85f2-307715402e8b")
+			(uuid "9f8fa4c4-3691-452e-9151-029cb40187c4")
 		)
 		(pin "2"
-			(uuid "903c21fe-2726-4fce-b93f-a9b9205d4ea7")
+			(uuid "2f7924d1-b9be-4cf5-8c7e-498efb334310")
 		)
 		(instances
 			(project "driver_module"
@@ -4518,7 +4339,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fb3f64d5-c9f4-4450-b8ed-a0779993e939")
+		(uuid "6d801ffc-f6f3-4dd8-82e5-5be6a7687483")
 	)
 	(wire
 		(pts
@@ -4529,7 +4350,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2b24c421-3146-4bfc-8267-38651f9d4815")
+		(uuid "4f4db6f5-36f9-4d6a-a946-36049814ac79")
 	)
 	(label "SENSE"
 		(at 203.2 115.57 180)
@@ -4539,7 +4360,7 @@
 			)
 			(justify right)
 		)
-		(uuid "3ee0fea4-d4c9-47cf-9f3c-fc2c8f631e40")
+		(uuid "54627a4c-e522-4393-80ab-60a2e5c3a0a0")
 	)
 	(wire
 		(pts
@@ -4550,7 +4371,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a8d8cb37-a0c6-4f85-b514-a46b793c0572")
+		(uuid "77910fae-aad8-42ac-b050-0f436fed93e7")
 	)
 	(wire
 		(pts
@@ -4561,7 +4382,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ad447ce5-0bc0-4209-999b-2ea5a13a0256")
+		(uuid "e16ddb88-fb9b-4b22-8812-f6a21223681a")
 	)
 	(label "SEL_B"
 		(at 203.2 128.27 180)
@@ -4571,20 +4392,20 @@
 			)
 			(justify right)
 		)
-		(uuid "68a31e0b-ea8d-4217-a285-38548ef01ec3")
+		(uuid "d3c552e7-d762-450c-81b8-d3cf4a8b376d")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 205.74 134.62 270)
+		(at 205.74 139.7 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cdc97462-49fe-4d5d-bc0d-da468a1f4785")
+		(uuid "03b3c295-f4cf-46dd-a484-189b1e91ab90")
 		(property "Reference" "JP1"
-			(at 208.74 133.35 90)
+			(at 208.74 138.43 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4414,7 @@
 			)
 		)
 		(property "Value" "CONFIG B"
-			(at 208.74 135.89 90)
+			(at 208.74 140.97 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4423,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 205.74 134.62 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4611,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 205.74 134.62 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4441,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 205.74 134.62 0)
+			(at 205.74 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4629,10 +4450,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "35f17604-73ee-4194-b7e0-2dff37ed881d")
+			(uuid "8f0413b4-c483-49eb-9cab-1a552f6d8482")
 		)
 		(pin "2"
-			(uuid "d58ad72f-c5c1-42aa-a65c-00da2633f2ed")
+			(uuid "8894b87f-5fe7-474d-aaee-629c400579df")
 		)
 		(instances
 			(project "driver_module"
@@ -4645,59 +4466,59 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 130.81)
-			(xy 205.74 128.27)
+			(xy 205.74 135.89)
+			(xy 205.74 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f31408d0-5713-4880-9e0a-1c25fc71f2fb")
+		(uuid "a0c0e850-0513-4093-b4f9-6607fd3ba716")
 	)
 	(wire
 		(pts
-			(xy 205.74 128.27)
-			(xy 203.2 128.27)
+			(xy 205.74 133.35)
+			(xy 203.2 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f0a244b6-631c-4887-9e31-4b8a6cada334")
+		(uuid "520f0c6a-4f67-48ab-80b2-74618224223b")
 	)
 	(label "SEL_B"
-		(at 203.2 128.27 180)
+		(at 203.2 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "55989f63-7f2b-4078-9114-025cf5bbec89")
+		(uuid "94becc0a-cca4-47cf-953a-37acf40c6fd7")
 	)
 	(wire
 		(pts
-			(xy 205.74 138.43)
-			(xy 205.74 140.97)
+			(xy 205.74 143.51)
+			(xy 205.74 146.05)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9358fd6-2b68-497d-9daa-58f3611bdb5b")
+		(uuid "d63be762-b29a-4abd-a099-2b55b1c6cd42")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 205.74 140.97 0)
+		(at 205.74 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d503f48c-2f86-42df-a47b-62ff7fff8c25")
-		(property "Reference" "#PWR0009"
-			(at 205.74 147.32 0)
+		(uuid "2d854598-922e-4ea0-83ff-e403c0cf76d0")
+		(property "Reference" "#PWR0008"
+			(at 205.74 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4706,7 +4527,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 205.74 144.78 0)
+			(at 205.74 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4714,7 +4535,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 140.97 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4544,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 140.97 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,7 +4553,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 205.74 140.97 0)
+			(at 205.74 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,12 +4562,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "736a2e5e-7e08-4c2c-96f4-83aa62016c9e")
+			(uuid "2da21597-0380-4912-85d3-3bc0920e138e")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0009")
+					(reference "#PWR0008")
 					(unit 1)
 				)
 			)
@@ -4761,7 +4582,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7113bcd6-5857-4151-b40c-0dc1d699460a")
+		(uuid "7c50f7c1-323a-4d29-abbe-303742c40600")
 		(property "Reference" "R3"
 			(at 154.94 127 90)
 			(effects
@@ -4806,10 +4627,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "63f6b962-4987-49f7-86ac-fb11f31af690")
+			(uuid "c1263b4d-be7a-41a3-84bd-23a2c72fc716")
 		)
 		(pin "2"
-			(uuid "b34d4606-49c8-4737-9c0d-102ce0ef19d3")
+			(uuid "006c3c5a-ac85-4970-a9db-5d00d57ad10f")
 		)
 		(instances
 			(project "driver_module"
@@ -4829,7 +4650,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c9217f18-d13f-4e4d-8681-fe4eaf390a4e")
+		(uuid "c226c737-2fae-4de4-9c4d-bb824eb5996c")
 	)
 	(label "INN"
 		(at 148.59 129.54 180)
@@ -4839,7 +4660,7 @@
 			)
 			(justify right)
 		)
-		(uuid "e1f2fae3-f6da-4dad-bf4e-7af14c93b11c")
+		(uuid "0d260a91-8012-4e7a-9804-ba8f6a4cd55d")
 	)
 	(wire
 		(pts
@@ -4850,7 +4671,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c628988e-b940-4f9f-ab57-804ad563b6ee")
+		(uuid "eac7fc2d-afaf-4a2d-8b84-b0aecf578782")
 	)
 	(label "SENSE"
 		(at 161.29 129.54 0)
@@ -4860,7 +4681,7 @@
 			)
 			(justify left)
 		)
-		(uuid "1163e0bd-0a9c-43ef-905b-f248459e10a6")
+		(uuid "ee731907-0315-4146-a83c-0da8fdd659f8")
 	)
 	(symbol
 		(lib_id "Diode:BAT54J")
@@ -4918,10 +4739,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "2e1be6f0-d6a8-44e3-84df-8ae3ea92c3fb")
+			(uuid "216828d0-3871-46ad-9e69-b1eba73dd763")
 		)
 		(pin "2"
-			(uuid "cbdb71f3-5678-44bf-bd38-0aca086972e2")
+			(uuid "98907866-6bdb-4e78-b103-20e6e7cffa25")
 		)
 		(instances
 			(project "driver_module"
@@ -4934,7 +4755,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ6.5CA")
-		(at 261.62 104.14 90)
+		(at 261.62 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4961,7 +4782,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 266.7 104.14 0)
+			(at 256.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4988,10 +4809,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5d688c01-880c-4bdb-b12f-6803c0515eb9")
+			(uuid "610d6e12-7aa0-49f3-b666-d2a659949d5c")
 		)
 		(pin "2"
-			(uuid "74b2de0d-8d92-4d86-af32-8c0347c062e3")
+			(uuid "c7d2d4bb-6e30-47b6-b140-96bf7ad73fef")
 		)
 		(instances
 			(project "driver_module"
@@ -5058,10 +4879,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe2a0143-93c5-4a8c-8394-e91164d61910")
+			(uuid "f99913da-0eb0-4a7d-9f2f-124efd3a769f")
 		)
 		(pin "2"
-			(uuid "a2ae2e56-7f3d-4d3d-a9e0-b3c19aecfce7")
+			(uuid "d3c85fe3-c744-47ea-b0e2-e689840c41f0")
 		)
 		(instances
 			(project "driver_module"
@@ -5081,18 +4902,18 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "4064f392-89d4-4342-9fe4-943d97ec7c38")
+		(uuid "7adf93a6-bdb5-402d-b6cf-3a5a12b65f5f")
 	)
 	(wire
 		(pts
-			(xy 261.62 107.95)
+			(xy 261.62 100.33)
 			(xy 261.62 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5b956921-2214-4487-aced-b7b08b3cb72e")
+		(uuid "aba47b00-727e-4c47-9165-6e46203a624d")
 	)
 	(wire
 		(pts
@@ -5103,7 +4924,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d987298f-9176-433b-a7b7-fa6acb967d56")
+		(uuid "33794de6-cc4d-4b6b-b3c5-8b831496bf8a")
 	)
 	(wire
 		(pts
@@ -5114,7 +4935,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a3706864-ecfb-4362-af6a-5c6f7afd2b10")
+		(uuid "61d1c70b-6b2c-4951-a7ec-f57ccb9a7531")
 	)
 	(wire
 		(pts
@@ -5125,7 +4946,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "da3a7e92-3576-4f45-b136-4d18307305df")
+		(uuid "86ab51cc-19e7-4bd7-a82e-b45c074a9b9e")
 	)
 	(wire
 		(pts
@@ -5136,19 +4957,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ca10f4eb-5622-4164-bf55-e3aca8057067")
+		(uuid "424024c3-8b86-41fd-aa19-d521da33457a")
 	)
 	(junction
 		(at 243.84 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5505a152-6704-4c13-9a1a-753c7d4ca046")
+		(uuid "a8aa335c-8c50-469a-ae21-5f351e901033")
 	)
 	(junction
 		(at 261.62 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2ccc1b58-0d7b-4fc1-9f14-c2dcfa41ca12")
+		(uuid "fbfa9be3-4835-49bd-99f2-2a3732ac862c")
 	)
 	(label "LASER_RAIL"
 		(at 238.76 96.52 180)
@@ -5158,7 +4979,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a764bfb9-10d5-4cb9-b119-5862342206d3")
+		(uuid "ce2fad2a-364f-48ad-87d1-ab67bc026e30")
 	)
 	(wire
 		(pts
@@ -5169,18 +4990,18 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a4cb72ce-0bd8-43a2-911e-aeb6e84d137d")
+		(uuid "9c9fbb64-edd7-4d08-b670-9b487e3abe38")
 	)
 	(wire
 		(pts
-			(xy 261.62 100.33)
+			(xy 261.62 107.95)
 			(xy 261.62 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b81f6ec3-9753-44b0-9bc7-1a75c56f096a")
+		(uuid "0d99fec4-179b-4c78-8beb-87bfe1a7e9da")
 	)
 	(wire
 		(pts
@@ -5191,7 +5012,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a2a37b6e-656d-4e28-8619-497a32a58571")
+		(uuid "af8ce203-479c-45ec-b2dd-a16c523ee35c")
 	)
 	(wire
 		(pts
@@ -5202,7 +5023,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "ba7fe501-b292-4930-8137-aca4bb3548c5")
+		(uuid "ecc5b842-b4b8-4990-911a-6469658ddcbf")
 	)
 	(wire
 		(pts
@@ -5213,7 +5034,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "1006dc30-55c0-4c3f-a387-ac212abf2be6")
+		(uuid "f3081a56-0a21-49a3-bc4e-230386f795c9")
 	)
 	(wire
 		(pts
@@ -5224,19 +5045,19 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe64ddf7-fb49-477c-a97d-f9888d0fa56e")
+		(uuid "062e75f1-b349-4a4a-b2ce-07363e61d906")
 	)
 	(junction
 		(at 243.84 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9b19befc-c9d2-4839-b390-b2e1edb7b721")
+		(uuid "f1c3eea2-077a-47a7-af3f-3ef0d24a8e55")
 	)
 	(junction
 		(at 261.62 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4655358b-5ea5-44ac-a37e-1cbcebd27093")
+		(uuid "f9bf35b5-f0cc-4adc-a4c3-80849600c93b")
 	)
 	(label "DRAIN"
 		(at 238.76 111.76 180)
@@ -5246,7 +5067,7 @@
 			)
 			(justify right)
 		)
-		(uuid "49634100-f744-463d-93ed-7522a13e2169")
+		(uuid "3401e55b-6b3f-4437-b2a0-b15edd844491")
 	)
 	(text "ATOMIZER SWITCH: Q2 switches the atomizer's V- to ground. R7/D1/C7/R8 detect PWM activity:\nQ2 is on whenever the candle's PWM is non-zero and turns off ~10 ms after the PWM stops."
 		(exclude_from_sim no)
@@ -5257,7 +5078,7 @@
 			)
 			(justify left top)
 		)
-		(uuid "86c9a03e-882e-4ca6-b3a2-d648ad542f86")
+		(uuid "b5cb5a1b-fcbd-4b14-9cd6-c417b1fdecc1")
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
@@ -5315,10 +5136,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c154d05f-033a-4a06-87c2-3aac1e5a9e9c")
+			(uuid "83f3e03d-8f4c-4978-a49d-703fa1f6d566")
 		)
 		(pin "2"
-			(uuid "ecc191f7-680c-4744-a882-a979917f14c0")
+			(uuid "35566e67-8f5d-47ab-b251-5357649a85e6")
 		)
 		(instances
 			(project "driver_module"
@@ -5338,7 +5159,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e55a001e-3418-4ce7-8bcb-f2c7ea8fcbdc")
+		(uuid "275141a6-bfe4-4a87-8d08-46b4cde33ea1")
 	)
 	(label "ATOM_P"
 		(at 38.1 160.02 180)
@@ -5348,7 +5169,7 @@
 			)
 			(justify right)
 		)
-		(uuid "af3d70a5-a50c-4234-b4d8-ec9aaf5c9d59")
+		(uuid "af38b159-24d1-4002-9ae4-d50a089e69ef")
 	)
 	(wire
 		(pts
@@ -5359,7 +5180,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9daa9936-4ac4-4043-bd6a-1811c60d1989")
+		(uuid "2b9a937f-b50b-46fd-bc6d-50bdf5838a18")
 	)
 	(label "ATOM_N"
 		(at 38.1 162.56 180)
@@ -5369,7 +5190,7 @@
 			)
 			(justify right)
 		)
-		(uuid "ab52a26e-3b93-4a5f-8067-5ba7d7b2d84d")
+		(uuid "de4c50e5-2bef-4444-8ab2-199ec3a0588c")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -5380,7 +5201,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "adc44cf2-c89a-46a7-983c-db260f76424e")
+		(uuid "33181350-0127-4a63-9af6-a8d16b145ddc")
 		(property "Reference" "R7"
 			(at 71.12 160.02 90)
 			(effects
@@ -5425,10 +5246,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "e4868ca4-1bb6-47c9-8663-e071b13f91e3")
+			(uuid "6732933b-b98e-4520-9161-e9f9b0ea3f20")
 		)
 		(pin "2"
-			(uuid "60a0f2a5-d2e4-4e34-9dcf-c2021de3c127")
+			(uuid "e8d582df-4f3b-44f4-ab0c-2a6bd07c041d")
 		)
 		(instances
 			(project "driver_module"
@@ -5448,7 +5269,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "715bd300-b8ff-4a13-8d62-b57f92542b5a")
+		(uuid "913b9a91-c884-481e-bce9-d811a31c77a8")
 	)
 	(label "PWM"
 		(at 64.77 162.56 180)
@@ -5458,7 +5279,7 @@
 			)
 			(justify right)
 		)
-		(uuid "83f63a33-0535-4720-8dfb-d647cfe3268a")
+		(uuid "53388116-e60a-4b0b-95bd-d2bf9c90c524")
 	)
 	(symbol
 		(lib_id "Diode:BAT54J")
@@ -5469,7 +5290,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6a70170-3d69-4352-b422-3990dd8a92c5")
+		(uuid "b436f377-49ff-44c9-bcfd-e02ce7c8af06")
 		(property "Reference" "D1"
 			(at 86.36 160.02 0)
 			(effects
@@ -5514,10 +5335,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd8531ef-ce5f-4c30-ba2d-ca591e42a39a")
+			(uuid "041c085d-b6e6-40c3-870b-29be401c4d4e")
 		)
 		(pin "2"
-			(uuid "faefe1cc-3355-4016-a809-bb6b358b82ff")
+			(uuid "2999185d-bb3a-4de4-8bbf-9e9906e322d7")
 		)
 		(instances
 			(project "driver_module"
@@ -5537,7 +5358,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bdbc2c8e-194e-4861-9bd4-f3b5431ee89b")
+		(uuid "a0c3dd68-5d54-4fe2-801a-831f00d8d9cc")
 		(property "Reference" "C7"
 			(at 107.14 166.37 0)
 			(effects
@@ -5584,10 +5405,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d6012164-7270-4d98-93e3-d32cb489ca7c")
+			(uuid "c82a1d21-41e7-4aaf-b5c0-6f19c12c93c4")
 		)
 		(pin "2"
-			(uuid "a3047aa9-c90b-4e2e-b15c-2412d29df27f")
+			(uuid "3640348b-775b-41d9-ba5e-71a0790f0906")
 		)
 		(instances
 			(project "driver_module"
@@ -5607,7 +5428,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "29f65c52-35ff-4fd0-9213-b0faac93cafc")
+		(uuid "a4bc2aa6-2828-4e56-97c1-d93f841ace65")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5618,8 +5439,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f3789e16-d624-4fe7-8654-7b4647f66836")
-		(property "Reference" "#PWR0010"
+		(uuid "a31e6ecb-d11e-41e3-90e7-69c60e779030")
+		(property "Reference" "#PWR0009"
 			(at 104.14 180.34 0)
 			(effects
 				(font
@@ -5664,12 +5485,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "336286f5-16e6-42a9-9066-530721d85902")
+			(uuid "b69ad645-5c21-493d-80b2-72254fe46d39")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0010")
+					(reference "#PWR0009")
 					(unit 1)
 				)
 			)
@@ -5684,7 +5505,7 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "bbc1f9ee-9daa-4608-80f3-c7c7da12c1e3")
+		(uuid "43e8e87d-962a-49b7-aeba-0b29dac87fc2")
 		(property "Reference" "R8"
 			(at 119.84 166.37 0)
 			(effects
@@ -5731,10 +5552,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "93e47a30-2bf1-4ce6-8332-789bb175d41f")
+			(uuid "051fdd16-5a70-4598-8859-29c8f5455e50")
 		)
 		(pin "2"
-			(uuid "62971049-f94a-4530-bbee-4b123865e980")
+			(uuid "79a8b0df-a195-4eef-afd0-3d0640ece0fd")
 		)
 		(instances
 			(project "driver_module"
@@ -5754,7 +5575,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "361b5ee8-9436-4846-b555-528d4d8b1069")
+		(uuid "c2b9e42e-21c2-4eff-95bd-6555e8ab7243")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5765,8 +5586,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9d7f9755-7493-4b47-9012-6c04cd0aa5be")
-		(property "Reference" "#PWR0011"
+		(uuid "c13db71d-7fbf-4c5b-93b8-bc7bc98e9f1a")
+		(property "Reference" "#PWR0010"
 			(at 116.84 180.34 0)
 			(effects
 				(font
@@ -5811,80 +5632,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "452ecb82-0362-4dae-ae1b-a80ed26927d4")
+			(uuid "b7f27894-a4b5-4900-aa31-600c482a4a9b")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 132.08 162.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "628d2667-759c-4c55-9fe1-bbd5d1903a57")
-		(property "Reference" "R9"
-			(at 132.08 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 132.08 165.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 132.08 164.338 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 132.08 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff3ca753-4b55-4b9f-a9a5-d32f8d81fca3")
-		)
-		(pin "2"
-			(uuid "cd082649-ac1f-4488-ba88-150f28b87009")
-		)
-		(instances
-			(project "driver_module"
-				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "R9")
+					(reference "#PWR0010")
 					(unit 1)
 				)
 			)
@@ -5892,16 +5645,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:AO3400A")
-		(at 149.86 162.56 0)
+		(at 139.7 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8ac6ea04-ff29-49e6-975f-3f4a34622f79")
+		(uuid "a29a47ae-b22d-49d4-b553-3eac54e354d2")
 		(property "Reference" "Q2"
-			(at 154.94 160.655 0)
+			(at 144.78 160.655 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5910,7 +5663,7 @@
 			)
 		)
 		(property "Value" "AO3400A"
-			(at 154.94 162.56 0)
+			(at 144.78 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5919,7 +5672,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 154.94 164.465 0)
+			(at 144.78 164.465 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5682,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
-			(at 154.94 166.37 0)
+			(at 144.78 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5939,7 +5692,7 @@
 			)
 		)
 		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
-			(at 149.86 162.56 0)
+			(at 139.7 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5948,13 +5701,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "99013893-00c5-4855-a3b1-1bdc6e61f69b")
+			(uuid "8c6f4297-cd87-4f17-b928-6d8410ac0916")
 		)
 		(pin "3"
-			(uuid "4dedfa6c-4633-49b4-9d5c-8a2007656af2")
+			(uuid "2c532396-714f-4e9c-920b-3502e53510e4")
 		)
 		(pin "2"
-			(uuid "e20a7615-fb60-4c83-96d3-1bd73d00c021")
+			(uuid "ca27cd0f-750a-43f3-b0a4-0df0d51e281d")
 		)
 		(instances
 			(project "driver_module"
@@ -5967,59 +5720,59 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 157.48)
-			(xy 152.4 154.94)
+			(xy 142.24 157.48)
+			(xy 142.24 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e84ece29-b1df-4799-acf3-85fe1a7a6826")
+		(uuid "3af522df-dc2c-4f6a-924a-1382bb157f40")
 	)
 	(wire
 		(pts
-			(xy 152.4 154.94)
-			(xy 149.86 154.94)
+			(xy 142.24 154.94)
+			(xy 139.7 154.94)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "91331f16-ec8f-4954-9779-6b1d0e613781")
+		(uuid "6eaf2a2e-041b-4fd2-ae08-a874758c635b")
 	)
 	(label "ATOM_N"
-		(at 149.86 154.94 180)
+		(at 139.7 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "6425bf6b-96e8-4e86-b91a-11dbcb152341")
+		(uuid "a1e8f2c9-6e84-4521-a999-ba8e58913797")
 	)
 	(wire
 		(pts
-			(xy 152.4 167.64)
-			(xy 152.4 170.18)
+			(xy 142.24 167.64)
+			(xy 142.24 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1ea15fa8-7e02-4e50-a6cb-174b8b19aad7")
+		(uuid "8f20453f-efaf-417e-b80b-93f07712a861")
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 170.18 0)
+		(at 142.24 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "94735531-8517-4f47-b036-c77652a727a1")
-		(property "Reference" "#PWR0012"
-			(at 152.4 176.53 0)
+		(uuid "4f038f73-ab06-44ab-9680-b65d231e6385")
+		(property "Reference" "#PWR0011"
+			(at 142.24 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6028,7 +5781,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 173.99 0)
+			(at 142.24 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6036,7 +5789,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 170.18 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +5798,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 170.18 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +5807,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 170.18 0)
+			(at 142.24 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,12 +5816,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0e69b9c9-b9f1-4564-8317-3150f0c618f6")
+			(uuid "bf8709e7-e347-4007-8c35-b2d787f92891")
 		)
 		(instances
 			(project "driver_module"
 				(path "/0e4bfa72-5e05-477f-9dfa-c8a7c03e4e9d"
-					(reference "#PWR0012")
+					(reference "#PWR0011")
 					(unit 1)
 				)
 			)
@@ -6083,7 +5836,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "6c8af1fe-442c-413b-a1ff-e965916d4be7")
+		(uuid "42b5fbd3-387d-47d0-88f5-156b688cbd8d")
 	)
 	(wire
 		(pts
@@ -6094,7 +5847,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "30dc96ce-4839-4b1e-9392-0e3baa1aa8da")
+		(uuid "a314ab55-f4d0-4d65-873f-dc37826962ac")
 	)
 	(wire
 		(pts
@@ -6105,18 +5858,18 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "25129045-d575-45dd-b739-563b5d2bb5f5")
+		(uuid "40f9c32e-fd36-429b-a870-23e0a5318161")
 	)
 	(wire
 		(pts
 			(xy 116.84 162.56)
-			(xy 128.27 162.56)
+			(xy 134.62 162.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1a9452b7-ed04-4359-9251-bcb7cca6eb00")
+		(uuid "d2088a97-a384-4c81-8e13-2b3760fa47a4")
 	)
 	(wire
 		(pts
@@ -6127,13 +5880,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "444349ed-0973-49e3-a2f4-ec2c0d864eb4")
+		(uuid "b2bbf612-0ff6-4639-8241-714fd40a5c80")
 	)
 	(junction
 		(at 104.14 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "82788ddc-ae31-40b4-a164-9b97566865d1")
+		(uuid "79e13b55-c4bf-4a5f-b487-0805d3d7e3e3")
 	)
 	(wire
 		(pts
@@ -6144,24 +5897,13 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "2df61e60-c0aa-4ad5-8c70-98276c311557")
+		(uuid "fd8075c1-24eb-40b4-8ae7-baf57519ffe6")
 	)
 	(junction
 		(at 116.84 162.56)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "27a09072-9e1b-4d9c-81cd-83782cde437b")
-	)
-	(wire
-		(pts
-			(xy 135.89 162.56)
-			(xy 144.78 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c7a2cd-7cfc-4e86-b4de-6947a360e826")
+		(uuid "da3645c7-0130-4052-b2df-711e70108d64")
 	)
 	(sheet_instances
 		(path "/"
